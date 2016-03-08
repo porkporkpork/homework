@@ -20,20 +20,13 @@
 
 ### 本次课程问题部分答疑
 
-- 为什么我运行webpack-dev-server后在项目里看不到产出的实体文件
-
+- **为什么我运行webpack-dev-server后在项目里看不到产出的实体文件**
 使用webpack-dev-server的话是通过服务去伺服产出的文件的，不会生成实体文件，要生产实体文件可以直接执行webpack命令即可。
-
-- 使用webpack.config.babel.js来命名配置文件行不行
-
+- **使用webpack.config.babel.js来命名配置文件行不行**
 在入门的时候先用ES5语法来写配置文件，直接webpack.config.js
-
-- 运行的时候报错解析不了文件怎么办
-
+- **运行的时候报错解析不了文件怎么办**
 按提示的信息，寻找是否有哪个loader没有下载下来，或者下载后没有配置正确。
-
-- 是不是需要下载file-loader
-
+- **是不是需要下载file-loader**
 我们在项目中下载了url-loader进行配置，url-loader是基于file-loader做的一层封装，所以无需下载file-loader.
 
 ## 第一期第二次课课后作业
